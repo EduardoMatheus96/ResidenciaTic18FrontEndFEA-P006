@@ -1,0 +1,8 @@
+<form [formGroup]="countryForm">
+  <div *ngFor="let field of formData">
+    <label
+      >{{ field.rotulo
+      }}<input type="{{ field.type }}" [formControlName]="field.nome"
+    /></label>
+  </div>
+</form>

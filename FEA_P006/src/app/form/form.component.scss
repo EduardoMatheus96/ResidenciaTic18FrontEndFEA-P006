@@ -1,0 +1,64 @@
+.futuristic-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 35px;
+  gap: 25px;
+  width: 100%;
+  height: 100%;
+  /* Add a futuristic background gradient */
+  background: linear-gradient(to right, #000000, #333333);
+  /* Optional: Add a subtle border */
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px; /* Rounded corners */
+}
+
+.futuristic-label {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  color: #fff; /* White text */
+
+  .field-name {
+    font-size: 18px;
+    font-weight: bold;
+    /* Use a futuristic font, if desired */
+    font-family: 'Exo 2', sans-serif; /* Example */
+  }
+}
+
+.futuristic-input {
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff; /* White text */
+  background-color: rgba(0, 0, 0, 0.2); /* Transparent background with slight opacity */
+  border-radius: 5px; /* Rounded corners */
+  /* Add subtle glow effect */
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+}
+
+.futuristic-button {
+  padding: 15px 40px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 30px;
+  /* Use a futuristic gradient or solid color */
+  background: linear-gradient(to right, #819CF5, #4C6EF5); /* Example gradient */
+  /* or */
+  background-color: #007bff; /* Example solid color */
+  color: #fff; /* White text */
+  /* Add hover effect with a color shift */
+  transition: background 0.3s ease-in-out;
+}
+
+.futuristic-button:hover {
+  background: linear-gradient(to right, #4C6EF5, #819CF5); /* Reversed gradient on hover */
+  /* or */
+  background-color: #0062cc; /* Darken solid color on hover */
+}

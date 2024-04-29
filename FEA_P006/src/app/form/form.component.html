@@ -1,0 +1,13 @@
+<form [formGroup]="countryForm" class="futuristic-form">
+  <div *ngFor="let field of formData">
+    <label class="futuristic-label">
+      <span class="field-name">{{ field.rotulo }}</span>
+      <input
+        type="{{ field.type }}"
+        [formControlName]="field.nome"
+        class="futuristic-input"
+      />
+    </label>
+  </div>
+  <button type="submit" class="futuristic-button">Submit</button>
+</form>
